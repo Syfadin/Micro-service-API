@@ -6,7 +6,7 @@ app.use( express.json() )
 
 
 
-/*  Now I want to add a get an endpoint to the shirt urlby passing shirt as its first argument to 
+/* Now I want to add a get an endpoint to the shirt urlby passing shirt as its first argument to 
 automatically set up the server with that endpoint.
 To handle a request to it bypassing a callback function as thesecond argument whenever a user requests 
 that url it will use this callback function to handle the request the function itself provides access to
